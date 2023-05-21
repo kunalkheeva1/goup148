@@ -151,8 +151,6 @@ def getToken(request):
     privilegeExpiredTs = currentTimeStamp + expirationTimeInSeconds
     role = 1
 
-    # role = 1 => HOST || role = 2 => GUEST
-
     token = RtcTokenBuilder.buildTokenWithUid(
         appId, appCertificate, channelName, uid, role, privilegeExpiredTs)
     return JsonResponse({'token': token, 'uid': uid}, safe=False)
