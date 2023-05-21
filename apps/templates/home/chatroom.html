@@ -1,0 +1,43 @@
+{% extends 'home/main.html' %}
+{% load static %}
+{% block content %}
+<section id="room-name-w">
+    <img id="logo" src="{% static 'images/studyzoom-high-resolution-logo-white-on-transparent-background.png' %}" alt=""  style="rgba(232,233,239,1); width:100px; margin-left:0px; margin-top:10px;">
+    <p>Your Room ID: <span id="room-name"></span></p>
+</section>
+
+<main style="background-color: rgba(5, 5, 5)">
+    
+   
+
+   
+    <section id="video-streams"></section>
+
+    <section id="controls-wrapper" style="margin-left: -650px;" >
+
+        <div class="icon-wrapper"  >
+            <img class="control-icon" id="mic-btn" src="{% static 'images/reshot-icon-microphone-WA2KD7M5JC (1).svg' %}" alt="" style=" width: 50px; height: 50px;" >
+        </div>
+
+        <div class="icon-wrapper">
+            <img class="control-icon" id="camera-btn" src="{% static 'images/video.svg' %}" alt="" style=" width: 50px; height: 50px;">
+        </div>
+
+        <div class="icon-wrapper">
+            <img class="control-icon" id="leave-btn" src="{% static 'images/reshot-icon-exit-PWVYL634B8.svg' %}" alt="" style=" width: 50px; height: 50px;">
+        </div>
+
+    </section>
+</main>
+
+<script type="text/javascript" src="{% static 'assets/AgoraRTC_N-4.8.1.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/streams.js' %}"></script>
+
+
+{% include "includes/footer.html" %}
+
+{% endblock content %}
+
+
+
+
