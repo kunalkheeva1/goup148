@@ -32,7 +32,7 @@ Open the `.env` file and remove or comment out all the `DB_*` settings to activa
 DEBUG=True
 
 # Deployment SERVER address
-SERVER=.appseed.us
+SERVER=.zoomstudy.us
 
 # For MySql Persistence
 # DB_ENGINE=mysql            <-- REMOVE or comment for Docker
