@@ -20,7 +20,7 @@ To start the StudyZoom app in Docker, follow these steps:
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/appseed-projects/<YOUR_BUILD_ID>.git
+$ git clone https://github.com/jagz97/Zoom_148.git
 $ cd <YOUR_BUILD_ID>
 ```
 
@@ -62,8 +62,8 @@ To use the StudyZoom app, follow the instructions below:
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/appseed-projects/d7886fe4-9d45-4f74-98a4-2c9b472daa99.git
-$ cd d7886fe4-9d45-4f74-98a4-2c9b472daa99
+$ git clone https://github.com/jagz97/Zoom_148.git
+$ cd Zoom_148
 ```
 
 ### Set Up for Unix, MacOS<a name="set-up-for-unix-macos"></a>
