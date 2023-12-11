@@ -139,7 +139,7 @@ The app uses simple workflow where the javascript client creates a token and the
 <img width="950" alt="image" src="https://github.com/jagz97/Zoom_148/assets/68725607/05ce8936-39df-4611-9ede-fb8f3cda72e4">
 
 The example below provides how the server creates a token for javascript client, sends json respone to aroga API.
-
+(updated)
 ```py
 def getToken(request):
     appId = '123e5eb9bd184d4187091c6b3a45cf89'
