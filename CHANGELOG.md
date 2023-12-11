@@ -3,7 +3,7 @@
 ## CodeBase version: 2stable.0.1 / 2022-01-15
 ### Improvements
 
-- Dependencies update (all packages) 
+- Dependencies update 
   - Django==4.0.1
 - Settings update for Django 4.x
   - `New Parameter`: CSRF_TRUSTED_ORIGINS
